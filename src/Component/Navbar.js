@@ -34,9 +34,9 @@ function Navbar() {
                                                 Subjects
                                             </button>
                                             <ul class="dropdown-menu dropdown-menu-dark">
-                                                <li><a class="dropdown-item" href="/student/maths">Maths</a></li>
-                                                <li><a class="dropdown-item" href="/student/maths">Physics</a></li>
-                                                <li><a class="dropdown-item" href="/student/maths">Chemistry</a></li>
+                                                <li><Link class="dropdown-item" to="/student">Maths</Link></li>
+                                                <li><Link class="dropdown-item" to="/student">Physics</Link></li>
+                                                <li><Link class="dropdown-item" to="/student">Chemistry</Link></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -51,7 +51,7 @@ function Navbar() {
 
 
                                 <li className="nav-item mx-2">
-                                    <Link className="nav-link active" to="/login">
+                                    <Link className="nav-link active" to="/">
                                         Logout
                                     </Link>
                                 </li>
